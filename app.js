@@ -15,6 +15,9 @@ function setDate(){
     //+90 to offset the transform 90deg in stylesheet (to make the clock start from 0)
     const secondsDegrees = ((seconds / 60) * 360) + 90; 
    
+    //Second hand is selected and rotated to the correct degrees established above
+    // ` (${ }) ` is a template literal - the `` allow an embedded expression (referral to the const secondsDegrees)
+    secondsHand.style.transform = `rotate(${secondsDegrees}deg)`
 
 console.log(seconds)
 };
