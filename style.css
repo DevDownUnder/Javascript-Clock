@@ -46,6 +46,6 @@ body {
   transform-origin: 100%; /*Make the hand rotate along the edge rather than in place*/
   transform: rotate(90deg);
   transition: all 0.05s;
-  transition-timing-function: cubic-bezier(0, 1.96, 0.57, 1.47); /*Cubic bezier function available in devtools after property name*/
+  transition-timing-function: cubic-bezier(0, 1.96, 0.26, 1.13); /*Cubic bezier function available in devtools after property name*/
 
 }
