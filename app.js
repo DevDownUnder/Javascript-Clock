@@ -9,10 +9,12 @@ function setDate(){
     const now = new Date();
     //Establish variables for seconds, minutes and hours
     const seconds = now.getSeconds();
-    //Establish variable for hand position according to time (360deg)
-    const secondsDegrees = ((seconds / 60) * 360) + 90; //+90 deg to offset the transform 90deg in stylesheet (to make the clock start from 0)
     const minutes = now.getMinutes();
     const hours = now.getHours();
+    //Establish variable for hand position according to time (360deg)
+    //+90 to offset the transform 90deg in stylesheet (to make the clock start from 0)
+    const secondsDegrees = ((seconds / 60) * 360) + 90; 
+   
 
 console.log(seconds)
 };
