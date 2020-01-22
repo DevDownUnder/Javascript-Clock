@@ -25,7 +25,6 @@ function setDate(){
     minutesHand.style.transform = `rotate(${minutesDegrees}deg)`
     hoursHand.style.transform = `rotate(${hoursDegrees}deg)`
 
-console.log(seconds)
 };
 
 //setInterval is an inbuilt method  -https://javascript.info/settimeout-setinterval
